@@ -9,7 +9,7 @@ name: on-commit-to-main
 
 jobs:
   Verify:
-    environment: dev
+#     environment: dev
     runs-on: ubuntu-latest
     steps:
       - name: Print event data
